@@ -6,9 +6,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .highlight{
     color: orange;
 }
+
 .helf-width{
     width: 40%;
     float: left;
@@ -39,4 +46,37 @@ section{
 .dream-area{
     background-image: url("../image/developer-portfolio/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-highlight{
+    color: orange;
+}
+.expriance-area{
+    background-image: url("../image/developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.helf-width-single-expriance{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+    
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue ,tomato);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
+  font-size: 10px;
 }
